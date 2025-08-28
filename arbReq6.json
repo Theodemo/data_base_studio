@@ -1,0 +1,20 @@
+{ "class": "go.GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [ 
+{"category":"table", "name":"Personnage p", "info":"TABLE", "key":-1, "loc":"75 400"},
+{"category":"table", "name":"Anime a", "info":"TABLE", "key":-2, "loc":"225 400"},
+{"category":"innerjoin", "name":"IJ", "condition":"[p.anime_id=a.anime_id]", "info":"INNER JOIN", "key":-6, "loc":"150 300"},
+{"category":"agreg", "name":"G", "attributes":"titre", "having":"", "functions":"count(personnage_id)", "info":"AGGREGATION", "key":-7, "loc":"150 75"},
+{"category":"project", "name":"P", "attributes":"(titre,personnage_id)", "info":"PROJECTION", "key":-5, "loc":"150 175"},
+{"category":"query", "name":"Q", "info":"QUERY", "key":-8, "loc":"150 -25"}
+ ],
+  "linkDataArray": [ 
+{"from":-1, "to":-6, "fromPort":"", "toPort":"L", "points":[75,384.3,75,384.3,75,352.3,112.80999999999999,352.3,112.80999999999999,320.3,112.80999999999999,305.3]},
+{"from":-2, "to":-6, "fromPort":"", "toPort":"R", "points":[225,384.3,225,384.3,225,352.3,163.19,352.3,163.19,320.3,163.19,305.3]},
+{"from":-6, "to":-5, "fromPort":"T", "toPort":"B", "points":[138,279.749,138,279.749,138,257.72450000000003,150,257.72450000000003,150,235.70000000000002,150,220.70000000000002]},
+{"from":-5, "to":-7, "fromPort":"T", "toPort":"B", "points":[150,169.70000000000002,150,169.70000000000002,150,148.60000000000002,142,148.60000000000002,142,127.5,142,112.5]},
+{"from":-7, "to":-8, "fromPort":"T", "toPort":"R", "points":[142,37.5,142,37.5,142,21.599999999999998,150,21.599999999999998,150,5.699999999999996,150,-9.300000000000004]}
+ ]}

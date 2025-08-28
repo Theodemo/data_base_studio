@@ -1,0 +1,20 @@
+{ "class": "go.GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "nodeDataArray": [ 
+{"category":"table", "name":"Anime a", "info":"TABLE", "key":-1, "loc":"225 325"},
+{"category":"restrict", "name":"R", "condition":"[titre='Tokyo Revengers']", "info":"RESTRICTION", "key":-2, "loc":"225 250"},
+{"category":"table", "name":"Personnage p\n", "info":"TABLE", "key":-3, "loc":"450 325"},
+{"category":"innerjoin", "name":"IJ", "condition":"[a.anime_id=p.anime_id]", "info":"INNER JOIN", "key":-6, "loc":"375 125"},
+{"category":"query", "name":"Q", "info":"QUERY", "key":-5, "loc":"350 -100"},
+{"category":"project", "name":"P", "attributes":"nomp,prenomp", "info":"PROJECTION", "key":-7, "loc":"350 0"}
+ ],
+  "linkDataArray": [ 
+{"from":-1, "to":-2, "fromPort":"", "toPort":"B", "points":[225,309.3,225,309.3,225,289.8,225,289.8,225,270.3,225,255.3]},
+{"from":-2, "to":-6, "fromPort":"T", "toPort":"L", "points":[225,204.3,225,204.3,225,204,225,204,225,196,337.81,196,337.81,145.3,337.81,130.3]},
+{"from":-3, "to":-6, "fromPort":"", "toPort":"R", "points":[450,304.1,450,304.1,450,224.70000000000002,388.19,224.70000000000002,388.19,145.3,388.19,130.3]},
+{"from":-7, "to":-5, "fromPort":"T", "toPort":"R", "points":[350,-5.300000000000004,350,-5.300000000000004,350,-37.3,350,-37.3,350,-69.29999999999998,350,-84.29999999999998]},
+{"from":-6, "to":-7, "fromPort":"T", "toPort":"B", "points":[363,104.749,363,104.749,363,108,363,108,363,68,350,68,350,60.699999999999996,350,45.699999999999996]}
+ ]}

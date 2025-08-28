@@ -1,0 +1,30 @@
+Exposé
+------
+ - clarté prestation orale 
+ - organisation des transparents
+ - maîtrise du sujet (durant l'exposé et réponse aux questions)
+ - gestion du temps (équilibrage du temps de parole, 8 <= durée <= 10 mn)
+
+durée
+-----
+ - 15 mn MAXI (10 mn + 5 mn)
+
+Ce qu'il faut présenter
+-----------------------
+ - objectifs du projet
+ - correspondance CdC / UML
+ - structuration de la BD : 
+   - représentation des tables (clés primaires soulignées,étrangères hashtagés, les informations)
+   - jointure pour faire apparaître toutes les informations (création de vue sur requête SQL)
+ - deux Cas d'Usage :
+    - Division relationnelle 
+    - Regroupement avec restriction
+
+Présentation des 2 CU en :
+    - langage naturel 
+    - calcul relationnel
+    - algèbre relationnelle
+    - arbre de requêtes
+    - requête SQL
+
+
