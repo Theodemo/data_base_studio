@@ -1,5 +1,6 @@
 # 🎬 Base de Données Relationnelle – Studio Mappa
 
+## 🚀 Overview
 Projet réalisé dans le cadre du **semestre S3 - Informatique (Bases de données relationnelles) à l’ENIB**.
 Objectif : concevoir et implémenter une base de données permettant d’**analyser les paramètres qui influencent le succès des saisons d’animés** produits par un studio.
 
@@ -101,7 +102,7 @@ SOURCE insert_data.sql;
 
 ---
 
-## 📄 Licence
+## 🌟 License
 
 Projet académique – ENIB – 2022.
 
