@@ -18,9 +18,6 @@ PRAGMA foreign_keys = 1 ;
 
 
 
-
-
-
 CREATE TABLE Anime
 (
 	anime_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT ,
